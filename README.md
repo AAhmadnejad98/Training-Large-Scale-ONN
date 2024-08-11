@@ -1,12 +1,6 @@
 # Training-Large-Scale-ONN
 Training Large-Scale Optical Neural Networks with Two-Pass Forward Propagation
 
-This repository addresses the limitations in Optical Neural Networks (ONNs) related to training efficiency,
-nonlinear function implementation, and large input data processing. We introduce Two-Pass Forward
-Propagation, a novel training method that avoids specific nonlinear activation functions by modulating and re-entering error with random noise. Additionally, we propose a new way to implement
-convolutional neural networks using simple neural networks in integrated optical systems. Theoretical
-foundations and numerical results demonstrate significant improvements in training speed, energy
-efficiency, and scalability, advancing the potential of optical computing for complex data tasks.
 
 #1- design_device.mat: As you know, designing a simple MZI in MATLAB can be challenging, so we first import an MZI image from Lumerical and then define the refractive index to create the simple MZI units. By placing them in a mesh, we create a 4x4 mesh, which will be used in the next step for the FDTD code.
 
